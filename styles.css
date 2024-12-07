@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #6A1E9C;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+}
+
+div.montar {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 30%; /* Pode ajustar a largura para o seu gosto */
+    height: auto; /* Deixe a altura automática para que o conteúdo se ajuste */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section#montagem {
+    display: flex; /* Adiciona o comportamento flex ao container */
+    justify-content: space-around; /* Alinha as divs com espaçamento entre elas */
+    flex-wrap: wrap; /* Permite que as divs se movam para a linha seguinte, caso não caibam na tela */
+}
+
+.produtos-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto {
+    text-align: center;
+    width: 200px;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.produto h2 {
+    margin: 10px 0;
+}
+
+.produto p {
+    color: #555;
+}
+
+ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.contato-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
